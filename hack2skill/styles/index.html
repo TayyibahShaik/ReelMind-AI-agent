@@ -193,8 +193,12 @@
   </script>
   <script type="module" src="/styles/app.js"></script>
   <script>
-    setTimeout(function () { if (!window.__reelmind_loaded) { /* module may still be loading */ } 5000 });
-  </script>
+  setTimeout(function () {
+    if (!window.__reelmind_loaded) {
+      console.log('ReelMind module is still loading...');
+    }
+  }, 5000);
+</script>
 </body>
 
 </html>
