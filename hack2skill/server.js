@@ -30,9 +30,9 @@ function handler(req, res) {
   let urlPath = req.url.split('?')[0];
 
   // Home page
-  if (urlPath === '/') {
-    urlPath = '/index.html';
-  }
+if (urlPath === '/') {
+  urlPath = '/styles/index.html';
+}
 
   // Prevent access outside the project folder
   const filePath = path.resolve(ROOT, '.' + urlPath);
