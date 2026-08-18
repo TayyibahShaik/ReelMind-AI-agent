@@ -1,0 +1,9 @@
+{
+  "name": "reelmind",
+  "version": "1.0.0",
+  "description": "AI-Powered Reel Recommendation Agent",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,222 @@
+export const techReelPool = [
+  {
+    id: "rec-1",
+    title: "System Design Basics Every Junior Dev Should Know",
+    category: "System Design",
+    difficulty: "Beginner",
+    tags: ["system-design", "software-engineering", "architecture", "scalability"],
+    description: "A beginner-friendly walkthrough of system design fundamentals — load balancers, databases, caching, and why your app crashes at 1000 users.",
+    educationalValue: 9.2,
+    qualityScore: 9.0,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-2",
+    title: "Day in the Life at a FAANG — What They Don't Show You",
+    category: "Career",
+    difficulty: "Intermediate",
+    tags: ["career", "software-engineering", "swe-lifestyle", "developer-career"],
+    description: "Honest look at what working at a big tech company is really like — the meetings, the code reviews, the imposter syndrome, and the perks.",
+    educationalValue: 7.5,
+    qualityScore: 8.2,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-3",
+    title: "Setting Up Your First Dev Environment from Scratch",
+    category: "Career",
+    difficulty: "Beginner",
+    tags: ["developer-tools", "dev-setup", "productivity", "career"],
+    description: "Step-by-step guide to setting up VS Code, Git, Node.js, and terminal like a pro. No more copying random Stack Overflow commands.",
+    educationalValue: 8.5,
+    qualityScore: 8.8,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-4",
+    title: "How to Actually Prepare for Coding Interviews (Not Just LeetCode)",
+    category: "DSA",
+    difficulty: "Beginner",
+    tags: ["coding-interview", "dsa", "career-prep", "developer-career"],
+    description: "A structured approach to interview prep that goes beyond grinding 500 LeetCode problems — communication patterns, system thinking, and behavioral prep.",
+    educationalValue: 9.0,
+    qualityScore: 9.1,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-5",
+    title: "OOP in Java — The Concepts That Actually Matter",
+    category: "Java",
+    difficulty: "Beginner",
+    tags: ["java", "software-engineering", "programming", "object-oriented"],
+    description: "Forget memorizing all 4 pillars. Focus on encapsulation and polymorphism — the two concepts that will save you in 90% of real-world Java code.",
+    educationalValue: 8.8,
+    qualityScore: 8.5,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-6",
+    title: "10 AI Tools That Will Get You a Job",
+    category: "AI",
+    difficulty: "Beginner",
+    tags: ["ai-tools", "productivity", "career"],
+    description: "These 10 AI tools will make you a 10x developer overnight! No experience needed — just sign up and let AI do all the work!",
+    educationalValue: 3.0,
+    qualityScore: 3.5,
+    clickbaitSignals: ["listicle-number", "vague-promises", "no-depth", "clickbait-title"]
+  },
+  {
+    id: "rec-7",
+    title: "Introduction to Machine Learning with Python",
+    category: "AI",
+    difficulty: "Intermediate",
+    tags: ["machine-learning", "artificial-intelligence", "python", "data-science"],
+    description: "Build your first ML model from scratch — understand regression, classification, and how to evaluate if your model is actually good or just lucky.",
+    educationalValue: 9.0,
+    qualityScore: 9.0,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-8",
+    title: "Cybersecurity Fundamentals — Protect Your Code",
+    category: "Cybersecurity",
+    difficulty: "Beginner",
+    tags: ["cybersecurity", "networking", "ethical-hacking", "software-engineering"],
+    description: "Common vulnerabilities every developer should know — SQL injection, XSS, CSRF. Learn to write code that doesn't make the security team cry.",
+    educationalValue: 8.7,
+    qualityScore: 8.6,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-9",
+    title: "Docker in 10 Minutes —容器化 Your First App",
+    category: "Cloud",
+    difficulty: "Beginner",
+    tags: ["cloud", "devops", "infrastructure", "developer-tools"],
+    description: "Docker isn't scary. Learn what containers actually are, why they matter, and deploy your first app in under 10 minutes.",
+    educationalValue: 8.3,
+    qualityScore: 8.4,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-10",
+    title: "Spring Boot Microservices — Complete Roadmap",
+    category: "Java",
+    difficulty: "Advanced",
+    tags: ["java", "software-engineering", "microservices", "system-design"],
+    description: "From monolith to microservices: learn Spring Boot, REST APIs, service discovery, and API gateways in one comprehensive roadmap.",
+    educationalValue: 9.5,
+    qualityScore: 9.3,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-11",
+    title: "How I Got My First Developer Job (No CS Degree)",
+    category: "Career",
+    difficulty: "Beginner",
+    tags: ["developer-career", "career-prep", "self-improvement", "motivation"],
+    description: "Self-taught developer shares the exact roadmap, resources, and mindset shifts that landed them a software engineering role without a degree.",
+    educationalValue: 7.0,
+    qualityScore: 7.8,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-12",
+    title: "How This One Trick Will Make You a Senior Dev in 30 Days!!!",
+    category: "Career",
+    difficulty: "Beginner",
+    tags: ["career", "self-improvement"],
+    description: "Forget everything you know — this single productivity hack will fast-track your career to senior engineer. Guaranteed results!",
+    educationalValue: 2.0,
+    qualityScore: 2.5,
+    clickbaitSignals: ["exclamation-marks", "vague-promises", "time-pressure", "clickbait-title"]
+  },
+  {
+    id: "rec-13",
+    title: "Sorting Algorithms Visualized — From Bubble to Quick",
+    category: "DSA",
+    difficulty: "Intermediate",
+    tags: ["dsa", "computer-science", "algorithms", "sorting"],
+    description: "Watch 6 sorting algorithms race against each other. Understand time complexity visually and know exactly when to use which algorithm.",
+    educationalValue: 9.0,
+    qualityScore: 9.2,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-14",
+    title: "AWS for Beginners — Your First Cloud Deployment",
+    category: "Cloud",
+    difficulty: "Beginner",
+    tags: ["cloud", "aws", "devops", "infrastructure"],
+    description: "Deploy your first web app to AWS EC2 — understanding instances, security groups, and why your bill is $200 for a hello world app.",
+    educationalValue: 8.0,
+    qualityScore: 8.3,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-15",
+    title: "You Won't Believe What This Neural Network Can Do!!!",
+    category: "AI",
+    difficulty: "Beginner",
+    tags: ["artificial-intelligence", "machine-learning"],
+    description: "This AI does EVERYTHING — generates code, writes essays, creates art. The future is here and you're falling behind if you don't use it!",
+    educationalValue: 2.5,
+    qualityScore: 3.0,
+    clickbaitSignals: ["sensationalism", "fear-missing-out", "vague-promises", "no-depth"]
+  },
+  {
+    id: "rec-16",
+    title: "High-Level Design for System Design Interviews",
+    category: "System Design",
+    difficulty: "Advanced",
+    tags: ["high-level-design", "system-design", "coding-interview", "software-engineering"],
+    description: "Master the HLD framework: requirements gathering, component design, trade-offs, and communication patterns that interviewers actually look for.",
+    educationalValue: 9.3,
+    qualityScore: 9.1,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-17",
+    title: "Linux Commands Every Developer Should Know",
+    category: "Developer Tools",
+    difficulty: "Beginner",
+    tags: ["developer-tools", "linux", "productivity", "dev-setup"],
+    description: "Stop googling the same commands. Master these 20 essential Linux commands and terminal tricks that will make you look like a pro.",
+    educationalValue: 7.8,
+    qualityScore: 8.0,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-18",
+    title: "Git Workflow — Branching Strategies That Actually Work",
+    category: "Developer Tools",
+    difficulty: "Beginner",
+    tags: ["git", "developer-tools", "software-engineering", "productivity"],
+    description: "GitFlow, trunk-based, feature branches — understand the pros and cons of each strategy and pick the right one for your team size.",
+    educationalValue: 8.5,
+    qualityScore: 8.7,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-19",
+    title: "Build a Real-Time Chat App with WebSockets",
+    category: "Software Engineering",
+    difficulty: "Intermediate",
+    tags: ["software-engineering", "coding", "web-development", "real-time"],
+    description: "Hands-on project: build a WhatsApp-like chat app using WebSockets, Node.js, and Redis. Covers connection management, rooms, and scaling.",
+    educationalValue: 9.0,
+    qualityScore: 9.0,
+    clickbaitSignals: []
+  },
+  {
+    id: "rec-20",
+    title: "How to Build a Strong Developer Portfolio That Gets Interviews",
+    category: "Career",
+    difficulty: "Beginner",
+    tags: ["developer-career", "career-prep", "portfolio", "motivation"],
+    description: "Your GitHub is empty and your resume is one page. Here's how to build 5 portfolio projects that actually demonstrate your skills to recruiters.",
+    educationalValue: 7.5,
+    qualityScore: 7.8,
+    clickbaitSignals: []
+  }
+];
