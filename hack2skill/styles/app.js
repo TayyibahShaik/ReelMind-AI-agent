@@ -1,8 +1,8 @@
-import { sampleReels } from './data/reels.js';
-import { techReelPool } from './data/recommendations.js';
-import { analyzeReels } from './engine/interest-analyzer.js';
-import { generateRecommendations } from './engine/recommender.js';
-import { formatRecommendations, formatInterestAnalysis } from './engine/formatter.js';
+import { sampleReels } from '../data/reels.js';
+import { techReelPool } from '../data/recommendations.js';
+import { analyzeReels } from '../engine/interest-analyzer.js';
+import { generateRecommendations } from '../engine/recommender.js';
+import { formatRecommendations, formatInterestAnalysis } from '../engine/formatter.js';
 
 const state = {
   reels: sampleReels.map(r => ({ ...r })),
